@@ -1,20 +1,33 @@
+/** @format */
+
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   height: 100vh;
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 0 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+}
+
+.hero {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  background-color: whitesmoke;
+  width: 100%;
 }
 
 .footer {
